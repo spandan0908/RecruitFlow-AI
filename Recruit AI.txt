@@ -1,0 +1,580 @@
+# Build an Enterprise AI Recruitment CRM for Staffing Agencies
+
+Build a modern, production-ready SaaS web application called **RecruitFlow AI**.
+
+## Vision
+
+RecruitFlow AI is **not a job portal**.
+
+Candidates continue applying through LinkedIn, Indeed, Dice, Glassdoor, Monster, ZipRecruiter, referrals, and email.
+
+RecruitFlow AI becomes the company's **single source of truth**, replacing Excel sheets, emails, and manual candidate tracking.
+
+---
+
+# Core Problem
+
+Recruitment agencies currently:
+
+* Download resumes from different job portals.
+* Store candidate details in Excel.
+* Send resumes through email.
+* Lose track of interview feedback.
+* Create duplicate candidate records.
+* Have poor communication between recruiters, HR, SMEs, and managers.
+
+The software should eliminate these problems.
+
+---
+
+# User Roles
+
+## Admin
+
+* Manage users
+* Manage permissions
+* View analytics
+* Manage clients
+* Manage jobs
+
+---
+
+## HR Manager
+
+* Create jobs
+* Assign recruiters
+* Assign SMEs
+* Track every candidate
+* Schedule interviews
+* Generate offers
+
+---
+
+## Recruiter
+
+* View assigned jobs
+* Import candidates
+* Review resumes
+* Add notes
+* Contact candidates
+* Move candidates through pipeline
+
+---
+
+## SME
+
+* View assigned candidates
+* Review resumes
+* Conduct interviews
+* Submit structured feedback
+
+---
+
+## Hiring Manager / Client
+
+* Review shortlisted candidates
+* Approve
+* Reject
+* Add comments
+
+---
+
+# Dashboard
+
+Show:
+
+* Open Jobs
+* New Candidates Today
+* Pending Reviews
+* Interviews Today
+* Offers Pending
+* Joined Candidates
+* Rejected Candidates
+
+Charts:
+
+* Hiring Funnel
+* Recruiter Performance
+* Candidate Sources
+* Monthly Hiring
+* Time-to-Hire
+
+---
+
+# Job Management
+
+Create jobs with:
+
+* Job Title
+* Client
+* Contract Type
+* Experience
+* Skills
+* Location
+* Recruiter
+* SME
+* Status
+
+---
+
+# Candidate Import Hub
+
+This is the heart of the application.
+
+Allow importing candidates from multiple sources.
+
+Supported sources:
+
+* LinkedIn
+* Indeed
+* Dice
+* Glassdoor
+* Monster
+* ZipRecruiter
+* Referrals
+* Email
+* Resume Upload
+* CSV Import
+
+Each imported candidate automatically becomes a record inside the centralized database.
+
+Display the source on every profile.
+
+---
+
+# Candidate Profile
+
+Every candidate should have:
+
+Personal Information
+
+Professional Summary
+
+Resume Preview
+
+Experience
+
+Skills
+
+Education
+
+Certifications
+
+Projects
+
+Documents
+
+Notes
+
+Interview History
+
+Activity Timeline
+
+Current Hiring Stage
+
+---
+
+# AI Resume Parsing
+
+When a resume is uploaded:
+
+Automatically extract:
+
+* Name
+* Email
+* Phone
+* Experience
+* Skills
+* Companies
+* Education
+* Certifications
+* LinkedIn URL
+* GitHub
+
+Populate candidate fields automatically.
+
+---
+
+# AI Candidate Summary
+
+Generate a concise summary.
+
+Example:
+
+"Senior Data Engineer with 6 years of experience in Python, Spark, AWS and SQL. Strong communication skills. Previously worked at Amazon and Deloitte."
+
+---
+
+# Candidate Match Score
+
+Compare candidate skills against job requirements.
+
+Display:
+
+Match %
+
+Missing Skills
+
+Recommended Level
+
+Strong Points
+
+Weak Areas
+
+---
+
+# Candidate Pipeline
+
+Kanban board.
+
+Stages:
+
+Applied
+
+Recruiter Review
+
+HR Review
+
+SME Assigned
+
+Interview Scheduled
+
+Technical Round
+
+Client Round
+
+Offer Released
+
+Joined
+
+Rejected
+
+Support drag-and-drop.
+
+---
+
+# Search Engine
+
+Global search.
+
+Filter by:
+
+Skills
+
+Experience
+
+Visa Status
+
+Location
+
+Source
+
+Recruiter
+
+Client
+
+Current Stage
+
+Expected Salary
+
+Notice Period
+
+Education
+
+---
+
+# Duplicate Detection
+
+Detect duplicates using:
+
+Email
+
+Phone
+
+LinkedIn URL
+
+Resume similarity
+
+Suggest merging duplicate records.
+
+---
+
+# Interview Module
+
+Schedule interviews.
+
+Store:
+
+Date
+
+Time
+
+Interviewer
+
+Meeting Link
+
+Round
+
+Status
+
+Reminder
+
+---
+
+# SME Feedback
+
+Rate:
+
+Technical Skills
+
+Communication
+
+Problem Solving
+
+Coding
+
+Overall Recommendation
+
+Comments
+
+---
+
+# Internal Collaboration
+
+Every candidate has:
+
+Recruiter Notes
+
+HR Notes
+
+SME Notes
+
+Manager Notes
+
+Timestamp every note.
+
+---
+
+# Notifications
+
+Notify users when:
+
+Candidate imported
+
+Candidate assigned
+
+Interview scheduled
+
+Feedback submitted
+
+Offer generated
+
+Candidate joined
+
+---
+
+# Document Management
+
+Store:
+
+Resume
+
+Passport
+
+Visa
+
+Offer Letter
+
+NDA
+
+Certificates
+
+Support previews.
+
+---
+
+# Client Module
+
+Manage clients.
+
+Store:
+
+Company
+
+Contact Persons
+
+Open Jobs
+
+Candidate Pipeline
+
+Interview Status
+
+Offers
+
+---
+
+# Analytics
+
+Display:
+
+Applications by Source
+
+Hiring Funnel
+
+Recruiter Performance
+
+Offer Acceptance
+
+Average Time to Hire
+
+Joining Ratio
+
+Monthly Hiring Trends
+
+---
+
+# Activity Log
+
+Record every action.
+
+Example:
+
+Recruiter imported candidate
+
+HR assigned SME
+
+SME submitted feedback
+
+Manager approved offer
+
+Offer generated
+
+---
+
+# AI Features
+
+Implement:
+
+AI Resume Summary
+
+Candidate Ranking
+
+Candidate Recommendation
+
+Resume Skill Extraction
+
+Job Matching
+
+Missing Skill Detection
+
+Interview Question Generator
+
+Interview Feedback Summary
+
+AI Email Writer
+
+---
+
+# UI
+
+Modern enterprise SaaS interface.
+
+Features:
+
+Responsive
+
+Sidebar
+
+Top Navbar
+
+Search Everywhere
+
+Dark Mode
+
+Professional blue, white, and gray theme
+
+Tables
+
+Kanban Board
+
+Cards
+
+Charts
+
+Modals
+
+---
+
+# Tech Stack
+
+Frontend
+
+Next.js
+
+React
+
+TypeScript
+
+Tailwind CSS
+
+shadcn/ui
+
+Backend
+
+FastAPI (Python)
+
+Database
+
+PostgreSQL
+
+Authentication
+
+JWT with Role-Based Access Control
+
+Storage
+
+AWS S3
+
+AI
+
+OpenAI APIs
+
+Charts
+
+Recharts
+
+---
+
+# Future Integrations
+
+Design the architecture with integration interfaces for:
+
+LinkedIn
+
+Indeed
+
+Dice
+
+Glassdoor
+
+Monster
+
+ZipRecruiter
+
+Gmail
+
+Outlook
+
+Google Calendar
+
+Microsoft Teams
+
+Zoom
+
+Do not hard-code integrations. Create modular provider interfaces so additional integrations can be plugged in later without changing the core application.
+
+---
+
+# Goal
+
+Build the application like a premium enterprise SaaS product comparable to Greenhouse, Ashby, Bullhorn, Lever, or Zoho Recruit, with clean architecture, scalable code, reusable components, secure authentication, and an excellent user experience suitable for staffing agencies handling thousands of candidates.

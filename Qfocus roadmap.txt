@@ -1,0 +1,24 @@
+          LinkedIn
+              │
+          Glassdoor
+              │
+            Indeed
+              │
+        ZipRecruiter
+              │
+             Dice
+              │
+        CareerBuilder
+              │
+      Company Careers Page
+              │
+      ------------------------
+              │
+              ▼
+      YOUR HIRING PLATFORM
+              │
+   -----------------------------
+   │           │              │
+ HR Dashboard  SME Portal   Admin
+   │           │              │
+ Notifications Analytics  Reports
